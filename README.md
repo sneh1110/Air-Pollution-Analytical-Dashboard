@@ -4,12 +4,12 @@ The Air Pollution Monitoring and PM2.5 Prediction Dashboard is an essential tool
 Usage:
 The utility of this dashboard extends beyond simple monitoring; it acts as adecision-support tool enabling policymakers, environmental agencies, and thepublic to take timely and informed actions. For instance, it can guide theimplementation of emergency measures during high pollution episodes, assist inurban planning, and help in the evaluation of long-term policies aimed atemission reduction. Moreover, it increases public awareness and engagement byproviding accessible and understandable pollution data.
 ## Visual Representation
-Heat Map
-Distribution plot
-2D TSNE
-2D UMAP
-3D TSNE
-3D UMAP
+### Heat Map
+### Distribution plot
+### 2D TSNE
+### 2D UMAP
+### 3D TSNE
+### 3D UMAP
 
 ## Methodology
 Storing the  data in SQL databases like PostgreSQL or MySQL.
