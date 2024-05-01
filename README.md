@@ -6,7 +6,7 @@ The utility of this dashboard extends beyond simple monitoring; it acts as adeci
 ## Visual Representation
 Heat Map
 
-![App Screenshot](https://drive.google.com/file/d/1OZLcGjDZWLvpeZCOlwsw3yxcr1_inZpB/view?usp=sharing)
+![App Screenshot](newplot (1).png)
 
 Distribution plot
 
