@@ -5,44 +5,23 @@ Usage:
 The utility of this dashboard extends beyond simple monitoring; it acts as adecision-support tool enabling policymakers, environmental agencies, and thepublic to take timely and informed actions. For instance, it can guide theimplementation of emergency measures during high pollution episodes, assist inurban planning, and help in the evaluation of long-term policies aimed atemission reduction. Moreover, it increases public awareness and engagement byproviding accessible and understandable pollution data.
 ## Visual Representation
 Heat Map
-
-![App Screenshot](newplot (1).png)
-
 Distribution plot
-
-![App Screenshot](https://drive.google.com/file/d/1rXwt7Q6xbIYrzvsBbKI-We95QRCVurpD/view?usp=sharing)
-
 2D TSNE
-
-![App Screenshot](https://drive.google.com/file/d/1yi48azcDtfjTAEnAjWIZk4mhyC1quYaI/view?usp=sharing)
-
 2D UMAP
-
-![App Screenshot](https://drive.google.com/file/d/1GUylm1YqAv2frZSUMjkPIU-XAvX1mT7s/view?usp=sharing)
-
 3D TSNE
-
-![App Screenshot](https://drive.google.com/file/d/1Mb0kg1amcsGaL78j0arWo-vmaXso9N0o/view?usp=sharing)
-
 3D UMAP
 
-![App Screenshot](https://drive.google.com/file/d/1yjBTfnDsSWExkRENeaqKzmb8p4I9G_JZ/view?usp=sharing)
+## Methodology
+Storing the  data in SQL databases like PostgreSQL or MySQL.
+NoSQL databases like MongoDB, especially if dealing with large volumes of unstructured data. Time-series databases like InfluxDB, which are optimized for timestamped data.
+Training the model for linear regression the accuracy score provided by this is not good . 
+Proceeding with hyperparameter tuning which focuses on precision and enhancement in accuracy score using grid cross-validation this approach helps to find the optimal set of hyperparameters that maximize the model's accuracy and generalization ability while accounting for variations in the data. It's particularly useful in airpollution models where the relationships between variables can be complex and nonlinear.
+After hyperparameter tuning we use random forest and we get the overall accuracy and accuracy is good to proceed.
 
-Algorithmic Approach
-The grayscale output of the algorithm provides a detailed representation of elevation variations, where lighter shades signify higher elevations and darker shades correspond to lower elevations. The refined image is not only visually informative but also serves as a basis for subsequent analysis.
+After model selection we move to model training, we train our model on parameters longitude and latitude, temperature, year, and country code.
 
-![App Screenshot](https://raw.githubusercontent.com/RinkeshKumarSinha/watershed-algo/main/ConsoleApplication1/test%20results%20packed/input2.PNG)
+To the creation of the dashboard  a web framework and visualization libraries for the creation of Front-end using HTML, CSS,JavaScript, and streamlit with frameworks like React.js . Backend using Flask and Django in Python, which serves the data and handles requests.
+Visualization libraries: D3.js, Chart.js, the libraries specific to Python which arePlotly and Matplotib.
 
-To enhance the interpretability of the results, the algorithm produces both grayscale and colorized representations of the processed image. The grayscale version maintains a nuanced portrayal of elevation differences, while the colorized version employs a gradient mapping technique.
- 
-![App Screenshot](https://raw.githubusercontent.com/RinkeshKumarSinha/watershed-algo/main/ConsoleApplication1/test%20results%20packed/op2%20coloured.PNG)
-
-The inner grid is having elevation of 255 which is a pit 
-the outer grid is having elevation of 240 then 200 then 150 and 100.
-so the pits are bordered and the colours dipict the 8 different directions.
-
-This mapping assigns distinct colors to specific elevation ranges, aiding in the quick and intuitive identification of elevation levels.
-
-This innovative flood-fill algorithm is a valuable tool for terrain analysis, hydrology, and related fields. Its ability to transform raw elevation data into visually compelling representations facilitates a deeper understanding of the landscape and supports the identification of potential water flow paths. The algorithm's versatility makes it suitable for a wide range of applications, from environmental monitoring to landscape modeling and beyond.
 
 
