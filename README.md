@@ -1,4 +1,4 @@
-# Air Quality index Prediction Model
+# Air Quality Index Prediction Model
 
 The Air Pollution Monitoring and PM2.5 Prediction Dashboard is an essential tool in the proactive management of air quality and public health. By effectivelyintegrating real-time data collection from various monitoring sources withadvanced predictive modeling techniques, the dashboard provides a robustframework for forecasting PM2.5 concentrations. This predictive capability iscrucial, as PM2.5 particles are known for their adverse health impacts,penetrating deep into the respiratory tract and potentially leading to severerespiratory disorders, cardiovascular diseases, and premature death.
 
